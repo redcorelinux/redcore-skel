@@ -3,9 +3,18 @@
 <channel name="xfce4-desktop" version="1.0">
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
+      <property name="monitor0" type="empty">
+        <property name="workspace0" type="empty">
+          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Flowers 2.jpg"/>
+          <property name="backdrop-cycle-enable" type="bool" value="true"/>
+          <property name="backdrop-cycle-random-order" type="bool" value="true"/>
+        </property>
+      </property>
+    </property>
+    <property name="screen0" type="empty">
       <property name="monitorVGA-0" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Sea 1.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Flowers 2.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
         </property>
@@ -14,7 +23,7 @@
     <property name="screen0" type="empty">
       <property name="monitorLVDS1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Sea 1.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Flowers 2.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
         </property>
@@ -23,7 +32,7 @@
     <property name="screen0" type="empty">
       <property name="monitorHDMI1" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Sea 1.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/nature/Flowers 2.jpg"/>
           <property name="backdrop-cycle-enable" type="bool" value="true"/>
           <property name="backdrop-cycle-random-order" type="bool" value="true"/>
         </property>
