@@ -1,8 +1,9 @@
 [Desktop Entry]
-Version=1.0
-Name=Disable DPMS
+Categories=
 Comment=Disable DPMS
-Exec=~/.config/autostart/scripts/disable-dpms.sh
+Exec=$HOME/.config/autostart/scripts/disable-dpms.sh
+Name=Disable DPMS
+NoDisplay=true
 Terminal=false
 Type=Application
-Categories=
+Version=1.0
