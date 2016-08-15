@@ -1,0 +1,72 @@
+[Aliases]
+AliasList=mail /exec mail,uptime /exec uptime,sayclip /exec sayclip,tinyurl /exec tinyurl,media /exec media,audio /exec media audio,video /exec media video,sysinfo /exec sysinfo,cmd /exec cmd,fortune /exec fortune,gauge /exec gauge,bug /exec bug
+
+[Appearance]
+ChannelSplitterSizes=1048,139
+TopicSplitterSizes=32,560
+TreeSplitterSizes=163,1196
+
+[Channel 0]
+Name=#rogentos-dezvoltare
+Password=
+
+[Channel 1]
+EnableNotifications=true
+Name=#rogentos-dezvoltare
+Password=
+
+[DCC Settings]
+PanelSplitter=AAAA/wAAAAEAAAACAAAASAAAAN0B/////wEAAAACAA==
+
+[Identity 0]
+AuthType=nickserv
+AutomaticAway=false
+AutomaticUnaway=false
+AwayInactivity=10
+AwayMessage=
+AwayNick=
+AwayReason=Fac update la kogaion ...
+Bot=nickserv
+Codec=UTF-8
+Ident=kogaionuser
+InsertRememberLineOnAway=false
+KickReason=Nu-ti place kogaion!
+Name=Default Identity
+Nicknames=kogaionuser,kogaionuser_,kogaionuser__
+NickservCommand=identify
+PartReason=Mai testez ceva la kogaion!
+Password=
+PemClientCertFile=
+PreShellCommand=
+QuitReason=Am testat kogaion!
+Realname=kogaion lxqt
+ReturnMessage=
+SaslAccount=
+ShowAwayMessage=false
+
+[MainWindow]
+State=AAAA/wAAAAD9AAAAAAAABVYAAAJ2AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Window-Maximized 768x1366=true
+
+[Server 0]
+Password=
+Port=8001
+SSLEnabled=false
+Server=chat.freenode.net
+
+[ServerGroup 0]
+AutoConnect=false
+AutoJoinChannels=Channel 0
+ChannelHistory=Channel 1
+ConnectCommands=
+EnableNotifications=true
+Expanded=false
+Identity=Default Identity
+Name=freenode
+NotifyList=
+ServerList=Server 0
+
+[ServerListDialog]
+ServerListHeaderState=\x00\x00\x00ˇ\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02k\x00\x00\x00\x03\x00\x01\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00»ˇˇˇˇ\x00\x00\x00Å\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00»\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00»\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00€\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03Ë\x01
+Size=734,274
