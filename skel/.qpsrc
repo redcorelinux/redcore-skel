@@ -1,0 +1,23 @@
+[General]
+field=PID, USER, NICE, VSIZE, MEM, %CPU, COMMAND_LINE
+flags=infobar, ctrlbar, statbar, autosave, cpubar, loadgraph, loadicon, selectpids, hostname, service
+interval=1300
+version=40
+viewproc=0
+
+[commands]
+size=0
+
+[font]
+name=Sans
+size=10
+
+[geometry]
+height=713
+visiable=true
+width=1366
+x=0
+y=23
+
+[watchdog]
+size=0
