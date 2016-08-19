@@ -1,5 +1,5 @@
 [General]
-field=PID, USER, NICE, VSIZE, MEM, %CPU, COMMAND_LINE
+field=PID, USER, MEM, %CPU, COMMAND_LINE
 flags=infobar, ctrlbar, statbar, autosave, cpubar, loadgraph, loadicon, selectpids, hostname, service
 interval=1300
 version=40
@@ -14,7 +14,7 @@ size=10
 
 [geometry]
 height=713
-visiable=true
+visiable=false
 width=1366
 x=0
 y=23
