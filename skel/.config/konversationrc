@@ -18,6 +18,9 @@ Password=
 [DCC Settings]
 PanelSplitter=AAAA/wAAAAEAAAACAAAASAAAAN0B/////wEAAAACAA==
 
+[Flags]
+InputFieldsBackgroundColor=true
+
 [Identity 0]
 AuthType=nickserv
 AutomaticAway=false
