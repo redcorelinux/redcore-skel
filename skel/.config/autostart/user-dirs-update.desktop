@@ -1,0 +1,11 @@
+[Desktop Entry]
+Exec=xdg-user-dirs-update
+Name=User folders update
+Name[ro]=Actualizare dosare utilizator
+Comment=Update common folders names to match current locale
+Comment[ro]=Actualizați numele dosarelor uzuale pentru a se potrivi cu localizarea curentă
+Terminal=false
+NotShowIn=KDE;
+Type=Application
+StartupNotify=false
+X-KDE-autostart-after=panel
