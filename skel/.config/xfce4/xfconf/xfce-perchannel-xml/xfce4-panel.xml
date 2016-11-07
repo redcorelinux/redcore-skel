@@ -26,7 +26,7 @@
       <property name="leave-opacity" type="uint" value="100"/>
       <property name="mode" type="uint" value="0"/>
       <property name="background-style" type="uint" value="1"/>
-      <property name="background-image" type="string" value="/usr/share/themes/Kogaion-daylight/gtk-2.0/Panel/panel-bg-new.png"/>
+      <property name="background-image" type="string" value="/usr/share/themes/Redcore-daylight/gtk-2.0/Panel/panel-bg-new.png"/>
     </property>
   </property>
   <property name="plugins" type="empty">
