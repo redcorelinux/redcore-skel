@@ -7,12 +7,12 @@ TopicSplitterSizes=32,560
 TreeSplitterSizes=163,1196
 
 [Channel 0]
-Name=#rogentos-dezvoltare
+Name=#redcorelinux
 Password=
 
 [Channel 1]
 EnableNotifications=true
-Name=#rogentos-dezvoltare
+Name=#redcorelinux
 Password=
 
 [DCC Settings]
