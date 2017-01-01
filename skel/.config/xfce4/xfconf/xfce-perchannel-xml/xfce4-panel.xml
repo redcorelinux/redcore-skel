@@ -64,7 +64,7 @@
     <property name="plugin-9" type="string" value="showdesktop"/>
     <property name="plugin-3" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="/usr/share/pixmaps/redcore-symbolic.png"/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/redcore-symbolic-dark.png"/>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
