@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name=Volumeicon Sound Applet
-Comment=Start the Volumeicon Sound Applet
-Exec=volumeicon
-Terminal=false
-Type=Application
-Categories=
-OnlyShowIn=XFCE;
