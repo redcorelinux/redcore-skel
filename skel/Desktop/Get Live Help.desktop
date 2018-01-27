@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Icon=/usr/share/pixmaps/redcore-logo.png
+Icon=start-here
 Type=Link
 URL=http://webchat.freenode.net/?channels=redcorelinux
 Name=Ask for help

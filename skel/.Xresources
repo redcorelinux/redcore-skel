@@ -38,4 +38,33 @@ xterm*ScrollBar: true
 ! stop output to terminal from jumping down to bottom of scroll again
 xterm*scrollTtyOutput: false
 
+xscreensaver.splash: false
 
+!font settings
+xscreensaver.Dialog.headingFont:        -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:          -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:           -*-dina-medium-r-*-*-12-*-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:         -*-dina-bold-r-*-*-12-*-*-*-*-*-*-*
+
+!general dialog box (affects main hostname, username, password text)
+xscreensaver.Dialog.foreground:         #dedede
+xscreensaver.Dialog.background:         #2d2d2d
+xscreensaver.Dialog.topShadowColor:     #2d2d2d
+xscreensaver.Dialog.bottomShadowColor:  #2d2d2d
+xscreensaver.Dialog.Button.foreground:  #2d2d2d
+xscreensaver.Dialog.Button.background:  #dedede
+
+!username/password input box and date text colour
+xscreensaver.Dialog.text.foreground:    #2d2d2d
+xscreensaver.Dialog.text.background:    #dedede
+xscreensaver.Dialog.internalBorderWidth:24
+xscreensaver.Dialog.borderWidth:        20
+xscreensaver.Dialog.shadowThickness:    2
+
+!timeout bar (background is actually determined by Dialog.text.background)
+xscreensaver.passwd.thermometer.foreground:  #520a0a
+xscreensaver.passwd.thermometer.background:  #dedede
+xscreensaver.passwd.thermometer.width:       8
