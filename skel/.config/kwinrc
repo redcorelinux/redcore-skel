@@ -1,8 +1,7 @@
 [$Version]
-update_info=kwin.upd:replace-scalein-with-scale
+update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize,kwin.upd:animation-speed
 
 [Compositing]
-AnimationSpeed=2
 Backend=OpenGL
 Enabled=false
 GLCore=false
@@ -14,7 +13,9 @@ WindowsBlockCompositing=true
 XRenderSmoothScale=false
 
 [Desktops]
+Id_1=1178d05f-0cdf-4aa2-8df4-692ec24410f6
 Number=1
+Rows=1
 
 [Effect-Cube]
 BorderActivate=9
@@ -76,7 +77,7 @@ ElectricBorders=0
 
 [org.kde.kdecoration2]
 BorderSize=Normal
+BorderSizeAuto=false
 ButtonsOnLeft=MS
 ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
-library=org.kde.oxygen
