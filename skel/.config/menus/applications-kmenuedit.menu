@@ -1,0 +1,281 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>Education</Name>
+  <Menu>
+   <Name>Mathematics</Name>
+   <Layout/>
+   <Exclude>
+    <Filename>libreoffice-math.desktop</Filename>
+   </Exclude>
+  </Menu>
+  <Menu>
+   <Name>Science</Name>
+   <Layout/>
+   <Exclude>
+    <Filename>libreoffice-math.desktop</Filename>
+   </Exclude>
+  </Menu>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Languages</Menuname>
+   <Menuname>Mathematics</Menuname>
+   <Menuname>Miscellaneous</Menuname>
+   <Menuname>Science</Menuname>
+   <Menuname>Tools</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>libreoffice-math.desktop</Filename>
+   <Filename>org.fontforge.FontForge.desktop</Filename>
+   <Filename>xsane.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>org.kde.okular.desktop</Filename>
+   <Filename>lsi-settings.desktop</Filename>
+   <Filename>lsi-steam.desktop</Filename>
+   <Filename>spicy-spice-gtk.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>steam-native-runtime.desktop</Filename>
+   <Filename>org.kde.kdeconnect_open.desktop</Filename>
+   <Filename>sqlitestudio-sqlitestudio.desktop</Filename>
+   <Filename>sqlitebrowser.desktop</Filename>
+   <Filename>hp-uiscan.desktop</Filename>
+   <Filename>cups.desktop</Filename>
+   <Filename>Gentoo-system-config-printer.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Games</Name>
+  <Exclude>
+   <Filename>lsi-settings.desktop</Filename>
+  </Exclude>
+  <Menu>
+   <Name>TacticStrategy</Name>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>0ad-0ad.desktop</Filename>
+    <Filename>warzone2100.desktop</Filename>
+   </Layout>
+  </Menu>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Arcade</Menuname>
+   <Menuname>Board</Menuname>
+   <Menuname>Card</Menuname>
+   <Menuname>Kidsgames</Menuname>
+   <Menuname>Logic</Menuname>
+   <Merge type="files"/>
+   <Filename>lsi-steam.desktop</Filename>
+   <Filename>net.lutris.Lutris.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>steam-native-runtime.desktop</Filename>
+   <Menuname>TacticStrategy</Menuname>
+   <Filename>xonotic-glx-xonotic.desktop</Filename>
+   <Filename>xonotic-sdl-xonotic.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Graphics</Name>
+  <Exclude>
+   <Filename>org.fontforge.FontForge.desktop</Filename>
+   <Filename>xsane.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>org.kde.okular.desktop</Filename>
+   <Filename>org.kde.skanlite.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>zzz-gimp.desktop</Filename>
+   <Filename>org.kde.gwenview.desktop</Filename>
+   <Filename>org.inkscape.Inkscape.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Internet</Name>
+  <Exclude>
+   <Filename>lsi-settings.desktop</Filename>
+   <Filename>lsi-steam.desktop</Filename>
+   <Filename>spicy-spice-gtk.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>steam-native-runtime.desktop</Filename>
+   <Filename>org.kde.kdeconnect_open.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.kdeconnect.app.desktop</Filename>
+   <Filename>org.kde.kdeconnect.sms.desktop</Filename>
+   <Filename>firefox.desktop</Filename>
+   <Filename>firefox-wayland.desktop</Filename>
+   <Filename>firefox-x11.desktop</Filename>
+   <Filename>putty-putty.desktop</Filename>
+   <Filename>org.qbittorrent.qBittorrent.desktop</Filename>
+   <Filename>quasselclient.desktop</Filename>
+   <Filename>skypeforlinux.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Filename>wavebox.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Utilities</Name>
+  <Exclude>
+   <Filename>sqlitestudio-sqlitestudio.desktop</Filename>
+   <Filename>sqlitebrowser.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.ark.desktop</Filename>
+   <Filename>hplip.desktop</Filename>
+   <Filename>org.kde.kcalc.desktop</Filename>
+   <Filename>org.keepassxc.KeePassXC.desktop</Filename>
+   <Filename>org.kde.kfind.desktop</Filename>
+   <Filename>org.kde.kwrite.desktop</Filename>
+   <Filename>org.kde.spectacle.desktop</Filename>
+   <Filename>winetricks.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>XUtilities</Menuname>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Development</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>sqlitebrowser.desktop</Filename>
+   <Filename>designer-designer-5.desktop</Filename>
+   <Filename>org.qt-project.qtcreator.desktop</Filename>
+   <Filename>sqlitestudio-sqlitestudio.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>Translation</Menuname>
+   <Menuname>Web Development</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Multimedia</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>cantata.desktop</Filename>
+   <Filename>guvcview.desktop</Filename>
+   <Filename>org.kde.k3b.desktop</Filename>
+   <Filename>mpv.desktop</Filename>
+   <Filename>phononsettings-phonon.desktop</Filename>
+   <Filename>simplescreenrecorder.desktop</Filename>
+   <Filename>vlc.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Office</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>libreoffice-startcenter.desktop</Filename>
+   <Filename>libreoffice-base.desktop</Filename>
+   <Filename>libreoffice-calc.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>libreoffice-impress.desktop</Filename>
+   <Filename>libreoffice-math.desktop</Filename>
+   <Filename>libreoffice-writer.desktop</Filename>
+   <Filename>org.kde.okular.desktop</Filename>
+   <Filename>org.kde.skanlite.desktop</Filename>
+   <Separator/>
+   <Merge type="menus"/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Include>
+   <Filename>org.kde.skanlite.desktop</Filename>
+  </Include>
+  <Exclude/>
+ </Menu>
+ <Menu>
+  <Name>redcore-redcore</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>redcore-gentoo.desktop</Filename>
+   <Filename>redcore-getlivehelp.desktop</Filename>
+   <Filename>redcore-bugtracker.desktop</Filename>
+   <Filename>redcore-wiki.desktop</Filename>
+   <Filename>redcore-git.desktop</Filename>
+   <Filename>redcore-website.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Settingsmenu</Name>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>lsi-settings.desktop</Filename>
+   <Filename>Gentoo-system-config-printer.desktop</Filename>
+   <Filename>radeon-profile.desktop</Filename>
+   <Filename>systemsettings.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Exclude>
+   <Filename>cups.desktop</Filename>
+   <Filename>Gentoo-system-config-printer.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>gsmartcontrol.desktop</Filename>
+   <Filename>htop.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>org.kde.partitionmanager.desktop</Filename>
+   <Filename>org.kde.konsole.desktop</Filename>
+   <Filename>org.kde.ksysguard.desktop</Filename>
+   <Filename>org.kde.kwalletmanager5.desktop</Filename>
+   <Filename>radeon-profile.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>ScreenSavers</Menuname>
+   <Filename>sisyphus-gui.desktop</Filename>
+   <Menuname>Terminal</Menuname>
+   <Filename>unetbootin-static.desktop</Filename>
+   <Filename>virt-manager.desktop</Filename>
+   <Filename>woeusbgui.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>wine-wine</Name>
+  <Menu>
+   <Name>wine-Programs</Name>
+   <Menu>
+    <Name>wine-Programs-Accessories</Name>
+    <Layout>
+     <Merge type="files"/>
+     <Filename>wine-notepad.desktop</Filename>
+    </Layout>
+   </Menu>
+   <Layout>
+    <Merge type="menus"/>
+    <Menuname>wine-Programs-Accessories</Menuname>
+   </Layout>
+  </Menu>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>wine-browsedrive.desktop</Filename>
+   <Filename>wine-winecfg.desktop</Filename>
+   <Merge type="menus"/>
+   <Menuname>wine-Programs</Menuname>
+   <Filename>wine-uninstaller.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Applications</Name>
+  <Layout/>
+  <Exclude>
+   <Filename>hp-uiscan.desktop</Filename>
+  </Exclude>
+ </Menu>
+</Menu>
