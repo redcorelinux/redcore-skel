@@ -1,0 +1,5 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-18-e0ba1801-e464-442f-b74b-05619accb705]
+ordering=applications:firefox.desktop,applications:thunderbird.desktop,applications:org.kde.konversation.desktop,applications:org.kde.konsole.desktop,applications:org.kde.discover.desktop,applications:sisyphus-gui.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-18-global]
+ordering=applications:firefox.desktop,applications:thunderbird.desktop,applications:org.kde.konversation.desktop,applications:org.kde.konsole.desktop,applications:org.kde.discover.desktop,applications:sisyphus-gui.desktop
