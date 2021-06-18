@@ -28,21 +28,21 @@ AutomaticUnaway=false
 AwayInactivity=10
 AwayMessage=
 AwayNick=
-AwayReason=Fac update la redcore ...
+AwayReason=I strike from the shadows ...
 Bot=nickserv
 Codec=UTF-8
 Ident=redcoreuser
 InsertRememberLineOnAway=false
-KickReason=Nu-ti place redcore!
+KickReason=Today it's a good day to die ...
 Name=Default Identity
 Nicknames=redcoreuser,redcoreuser_,redcoreuser__
 NickservCommand=identify
-PartReason=Mai testez ceva la redcore!
+PartReason=Killing loneliness ...
 Password=
 PemClientCertFile=
 PreShellCommand=
-QuitReason=Am testat redcore!
-Realname=redcore lxqt
+QuitReason=I'm all over it ...
+Realname=redcoreuser
 ReturnMessage=
 SaslAccount=
 ShowAwayMessage=false
@@ -54,9 +54,9 @@ Window-Maximized 768x1366=true
 
 [Server 0]
 Password=
-Port=8001
+Port=6667
 SSLEnabled=false
-Server=chat.freenode.net
+Server=irc.libera.chat
 
 [ServerGroup 0]
 AutoConnect=false
@@ -66,7 +66,7 @@ ConnectCommands=
 EnableNotifications=true
 Expanded=false
 Identity=Default Identity
-Name=freenode
+Name=LiberaChat
 NotifyList=
 ServerList=Server 0
 
