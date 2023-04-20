@@ -7,6 +7,10 @@
 * JetBrainsMono Nerd Font
 * Kvantum and QT5CT for applying themes to QT applications
 * lxappearance for applying themes to GTK applications
+* feh to set the wallpaper
+
+## Assets
+The wallpaper and font used in this config can be found in the assets directory.
 
 ## Changing Themes 
 The current configuration comes with several pre-installed color schemes. The default theme is the Redcore theme. These are also included:
