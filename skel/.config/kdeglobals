@@ -108,7 +108,7 @@ ForegroundPositive=84,205,238
 ForegroundVisited=127,140,141
 
 [General]
-BrowserApplication[$e]=!firefox
+BrowserApplication=firefox.desktop
 ColorScheme=Redcore
 Name[en_GB]=Breeze
 Name=Breeze
