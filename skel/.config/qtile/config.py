@@ -159,8 +159,8 @@ keys.extend([
 # Define layouts and layout themes
 layout_theme = {
         "margin":5,
-        "border_width": 4,
-        "border_focus": colors[2],
+        "border_width": 2,
+        "border_focus": colors[9],
         "border_normal": backgroundColor
     }
 
@@ -179,8 +179,8 @@ def launch_menu():
 
 # Define Widgets
 widget_defaults = dict(
-    font="JetBrainsMono Nerd Font",
-    fontsize = 12,
+    font="Noto Sans",
+    fontsize = 14,
     padding = 2,
     background=backgroundColor
 )
@@ -188,15 +188,15 @@ widget_defaults = dict(
 def init_widgets_list(monitor_num):
     widgets_list = [
         widget.GroupBox(
-            font="JetBrainsMono Nerd Font",
-            fontsize = 16,
+            font="Noto Sans",
+            fontsize = 14,
             margin_y = 2,
             margin_x = 4,
             padding_y = 6,
             padding_x = 6,
             borderwidth = 2,
             disable_drag = True,
-            active = colors[4],
+            active = colors[3],
             inactive = foregroundColor,
             hide_unused = False,
             rounded = False,
@@ -215,11 +215,11 @@ def init_widgets_list(monitor_num):
         ),
         widget.TaskList(
             icon_size = 0,
-            font = "JetBrainsMono Nerd Font",
+            font = "Noto Sans",
             foreground = colors[10],
-            background = colors[2],
+            background = colors[9],
             borderwidth = 0,
-            border = colors[6],
+            border = colors[9],
             margin = 0,
             padding = 8,
             highlight_method = "block",
@@ -231,29 +231,29 @@ def init_widgets_list(monitor_num):
             txt_maximized = "🗖 ",
             txt_minimized = "🗕 ",
         ),
+        widget.CurrentLayoutIcon(scale = 0.5, foreground = colors[9], background = colors[9]),
         widget.Sep(linewidth = 0, padding = 10),
-        widget.TextBox(text = " ", fontsize = 14, font = "JetBrainsMono Nerd Font", foreground = colors[7]),
+        widget.Systray(background = backgroundColor, icon_size = 20, padding = 5),
+        widget.Sep(linewidth = 0, padding = 10),
+        widget.TextBox(text = "CPU ", fontsize = 10, font = "Noto Sans", foreground = colors[7]),
         widget.CPU(
-            font = "JetBrainsMono Nerd Font",
+            font = "Noto Sans",
             update_interval = 1.0,
-            format = '{load_percent}%',
+            format = '{freq_current}Ghz / {load_percent}%',
             foreground = foregroundColor,
             padding = 5
         ),
         widget.Sep(linewidth = 0, padding = 10),
-        widget.TextBox(text = "", fontsize = 14, font = "JetBrainsMono Nerd Font", foreground = colors[3]),
+        widget.TextBox(text = "RAM", fontsize = 10, font = "Noto Sans", foreground = colors[7]),
         widget.Memory(
-            font = "JetBrainsMonoNerdFont",
+            font = "Noto Sans",
             foreground = foregroundColor,
             format = '{MemUsed: .0f}{mm} /{MemTotal: .0f}{mm}',
             measure_mem='G',
             padding = 5,
         ),
         widget.Sep(linewidth = 0, padding = 10),
-        widget.TextBox(text = " ", fontsize = 14, font = "JetBrainsMono Nerd Font", foreground = colors[10]),
-        widget.Clock(format='%I:%M %p', font = "JetBrainsMono Nerd Font", padding = 10, foreground = foregroundColor),
-        widget.Systray(background = backgroundColor, icon_size = 20, padding = 4),
-        widget.CurrentLayoutIcon(scale = 0.5, foreground = colors[6], background = colors[6]),
+        widget.Clock(format='%I:%M %p', font = "Noto Sans", padding = 10, foreground = foregroundColor),
     ]
 
     return widgets_list
