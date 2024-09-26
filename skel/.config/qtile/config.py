@@ -119,8 +119,8 @@ groups = []
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "minus", "equal"]
 
 # Change out these two lines to change between icons and numbers in the workspace section of the bar.
-group_labels = ["", "", "", "", "", "", "", "", "ﭮ", "", "", "﨣"]
-#group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
+#group_labels = ["", "", "", "", "", "", "", "", "ﭮ", "", "", "﨣"]
+group_labels = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"]
 
 # Change these to change the default layout per workspace. Do not delete.
 group_layouts = ["monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall"]

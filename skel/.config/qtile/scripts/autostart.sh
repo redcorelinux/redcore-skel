@@ -47,7 +47,7 @@ start_nm-applet() {
 
 start_pipewire() {
 	if [[ -x /usr/bin/gentoo-pipewire-launcher ]] ; then
-		/usr/bin/gentoo-pipewire-launcher restart
+		/usr/bin/gentoo-pipewire-launcher restart & disown
 	fi
 }
 
