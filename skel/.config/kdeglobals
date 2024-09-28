@@ -119,7 +119,7 @@ shadeSortColumn=true
 widgetStyle=Breeze
 
 [Icons]
-Theme=Numix-Circle-Light
+Theme=breeze
 
 [KDE]
 AnimationDurationFactor=0.500000
