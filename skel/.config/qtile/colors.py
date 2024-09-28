@@ -192,8 +192,8 @@ def redcore():
 			   ['#520a0a', '#520a0a'], #red [9] 
 			   ["#eff0f1", "#eff0f1"]] #white [10]  
 			   
-	backgroundColor = "#31363b"
-	foregroundColor = "#eff0f1"
+	backgroundColor = "#eff0f1"
+	foregroundColor = "#31363b"
 	workspaceColor = "#27ae60"
 	foregroundColorTwo = "#2a2a2a"
 	return colors, backgroundColor, foregroundColor, workspaceColor, foregroundColorTwo
