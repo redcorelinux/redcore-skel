@@ -329,6 +329,7 @@ def init_widgets_list(monitor_num):
             countdown_start=15,
             countdown_format='{}',
             default_text=" ",
+            fontsize=14,
             font="FontAwesome",
             foreground=colors[0]
         ),
