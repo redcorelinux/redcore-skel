@@ -259,9 +259,26 @@ def init_widgets_list(monitor_num):
             padding=10
         ),
         widget.TextBox(
-            text="CPU ",
-            fontsize=10,
+            text=" ",
+            fontsize=14,
+            font="FontAwesome",
+            foreground=colors[0]
+        ),
+        widget.PulseVolume(
             font="Noto Sans",
+            limit_max_volume=True,
+            mute_format='Mute',
+            volume_app='pavucontrol-qt',
+            foreground=foregroundColor
+        ),
+        widget.Sep(
+            linewidth=0,
+            padding=10
+        ),
+        widget.TextBox(
+            text=" ",
+            fontsize=14,
+            font="FontAwesome",
             foreground=colors[0]
         ),
         widget.CPU(
@@ -276,9 +293,9 @@ def init_widgets_list(monitor_num):
             padding=10
         ),
         widget.TextBox(
-            text="RAM",
-            fontsize=10,
-            font="Noto Sans",
+            text=" ",
+            fontsize=14,
+            font="FontAwesome",
             foreground=colors[0]
         ),
         widget.Memory(
@@ -292,10 +309,27 @@ def init_widgets_list(monitor_num):
             linewidth=0,
             padding=10
         ),
+        widget.TextBox(
+            text=" ",
+            fontsize=14,
+            font="FontAwesome",
+            foreground=colors[0]
+        ),
         widget.Clock(
             format='%I:%M %p',
             font="Noto Sans",
             padding=10,
+            foreground=colors[0]
+        ),
+        widget.Sep(
+            linewidth=0,
+            padding=10,
+        ),
+        widget.QuickExit(
+            countdown_start=15,
+            countdown_format='{}',
+            default_text=" ",
+            font="FontAwesome",
             foreground=colors[0]
         ),
     ]
