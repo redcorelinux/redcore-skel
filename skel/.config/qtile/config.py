@@ -184,7 +184,7 @@ layouts = [
 
 
 def launch_menu():
-    qtile.cmd_spawn("rofi -show drun -show-icons")
+    qtile.spawn("rofi -show drun -show-icons")
 
 
 # Define Widgets
@@ -240,8 +240,8 @@ def init_widgets_list(monitor_num):
             txt_maximized="🗖 ",
             txt_minimized="🗕 ",
         ),
-        widget.CurrentLayoutIcon(
-            scale=0.5,
+        widget.CurrentLayout(
+            mode="icon", scale=0.5,
             foreground=colors[9],
             background=colors[9]
         ),
