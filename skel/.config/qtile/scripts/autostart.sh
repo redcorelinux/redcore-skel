@@ -31,9 +31,9 @@ start_notification_daemon() {
 
 start_compositor() {
 	if [[ "$(loginctl show-session "$XDG_SESSION_ID" -p Type --value)" != wayland ]]; then
-		if [[ -x /usr/bin/picom ]] ; then # x11
-			pkill -f picom
-			/usr/bin/picom --vsync & disown
+		if [[ -x /usr/bin/xcompmgr ]] ; then # x11
+			pkill -f xcompmgr
+			/usr/bin/xcompmgr -nfc & disown
 		fi
 	fi
 }
