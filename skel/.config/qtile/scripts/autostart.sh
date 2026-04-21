@@ -35,6 +35,11 @@ start_compositor() {
 			pkill -f xcompmgr
 			/usr/bin/xcompmgr -nfc & disown
 		fi
+	else
+		if [[ -x /usr/bin/picom ]] ; then # x11
+			pkill -f picom
+			/usr/bin/picom --vsync & disown
+		fi
 	fi
 }
 
